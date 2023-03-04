@@ -26,12 +26,12 @@ paru -S --needed - < .dots/packages.list
 
 ## todo
 
-- [ ] switch to wayland probably
-  - [ ] hyprland
-  - [ ] eww
-  - [ ] [sway wiki][sw]
+- [ ] switch to Wayland probably
+  - [ ] Hyprland
+  - [ ] Eww
+  - [ ] [Sway wiki][sw]
 - [ ] better dm than greetd-tuigreet
-  - [ ] sddm (with theme)
+  - [ ] SDDM (with theme)
   - [ ] greetd-qtgreet
   - [ ] greetd-regreet
 
