@@ -7,5 +7,4 @@
 EDITOR=vim
 TERMINAL=alacritty
 GTK_THEME=Arc-Dark
-DOTBARE_DIR=$HOME/.dotbare
 #WINEDLLOVERRIDES=mshtml=d

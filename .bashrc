@@ -7,6 +7,7 @@
 
 source ".alias"
 
+export DOTBARE_DIR="$HOME/.dotbare"
 PS1='[\u@\h \W]\$ '
 
 # start ssh-agent
