@@ -23,3 +23,16 @@ git clone https://github.com/paenis/dotfiles.git && cd dotfiles
 paru -S --needed - < .dots/packages.list
 # todo: linker
 ```
+
+## todo
+
+- [ ] switch to wayland probably
+  - [ ] hyprland
+  - [ ] eww
+  - [ ] [sway wiki][sw]
+- [ ] better dm than greetd-tuigreet
+  - [ ] sddm (with theme)
+  - [ ] greetd-qtgreet
+  - [ ] greetd-regreet
+
+[sw]: https://github.com/swaywm/sway/wiki/Useful-add-ons-for-sway
