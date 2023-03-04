@@ -1,0 +1,11 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+
+EDITOR=vim
+TERMINAL=alacritty
+GTK_THEME=Arc-Dark
+DOTBARE_DIR=$HOME/.dotbare
+#WINEDLLOVERRIDES=mshtml=d

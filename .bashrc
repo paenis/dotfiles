@@ -5,7 +5,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
+source ".alias"
+
 PS1='[\u@\h \W]\$ '
 
 # start ssh-agent
@@ -29,4 +30,3 @@ else
 	export PROMPT_COMMAND="set_window_title"
 fi
 
-eval "$(thefuck --alias)"

@@ -1,0 +1,6 @@
+#!/bin/bash
+/etc/greetd/tty-color chalk
+setfont "$(grep -ioP '^FONT=\K.+' /etc/vconsole.conf)"
+sleep 0.2
+# agreety --cmd $SHELL
+tuigreet -t --time-format '%a, %d %b %Y - %I:%M:%S%P' -r --remember-user-session --asterisks -g 'haiiii :3' -c $SHELL
