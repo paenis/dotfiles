@@ -1,5 +1,6 @@
 acpilight
 alacritty
+alsa-utils
 ansible-core
 ansible-lint
 arc-gtk-theme
