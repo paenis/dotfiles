@@ -1,7 +1,9 @@
 alias dots="dotbare"
 cpdots() {
   mkdir -p "$HOME/.dots/conf$(dirname $(realpath "$1"))"
-  cp -v "$1" "$HOME/.dots/conf$(realpath "$1")"
+  newpath="$HOME/.dots/conf$(realpath "$1")"
+  cp -v "$1" "$newpath"
+  dots add "$newpath"
 }
 
 alias ls="ls --color=auto"
