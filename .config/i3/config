@@ -15,10 +15,13 @@ exec --no-startup-id dunst
 
 ## Bindings ##
 
-bindsym --release Print exec --no-startup-id $HOME/scripts/screenshot-clipboard.sh
-bindsym --release Shift+Print exec --no-startup-id $HOME/scripts/screenshot-select-clipboard.sh
+bindsym --release Print exec --no-startup-id $HOME/.local/bin/screenshot-clipboard.sh
+bindsym --release Shift+Print exec --no-startup-id $HOME/.local/bin/screenshot-select-clipboard.sh
 bindsym $Mod+d exec "rofi -show drun"
 bindsym $Mod+Tab exec "rofi -show window"
+
+bindsym XF86MonBrightnessUp exec "xbacklight +5 -steps 10"
+bindsym XF86MonBrightnessDown exec "xbacklight -5 -steps 10"
 
 ### DEFAULTS ###
 
