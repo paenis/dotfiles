@@ -102,6 +102,8 @@ pacman-contrib
 paru
 patch
 pavucontrol
+perl-file-homedir
+perl-yaml-tiny
 picom
 pipewire
 pipewire-alsa
@@ -122,6 +124,7 @@ python-pip
 python-requests
 python-virtualenv
 python2-bin
+radian
 reflector
 ripgrep
 rofi
@@ -135,8 +138,11 @@ sof-firmware
 spotify
 steam
 sudo
+tectonic
 terminus-font
 texinfo
+texlive-bin
+texlive-core
 thefuck
 tlp
 tree
