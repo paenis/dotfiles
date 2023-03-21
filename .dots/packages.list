@@ -13,12 +13,14 @@ bash-completion
 bat
 bind
 binutils
+binwalk
 bison
 bluez-utils
 bottom
 btrfs-progs
 capitaine-cursors
 ciphey
+clinfo
 dbus-python
 debugedit
 discord
@@ -29,6 +31,7 @@ dotbare
 duf
 dunst
 efibootmgr
+exiv2
 fakeroot
 fbcat
 feh
@@ -36,6 +39,7 @@ file
 findutils
 firefox
 flex
+foremost
 fprintd
 fwupd
 gawk
@@ -55,6 +59,7 @@ grub-theme-vimix
 gst-plugin-pipewire
 gzip
 hashcat
+hashcat-utils
 htop
 i3-wm
 i3blocks
@@ -94,11 +99,13 @@ nmap
 noto-fonts-emoji
 npm
 oneko
+opencl-headers
 openssh
 oxipng
 p7zip
 pacman
 pacman-contrib
+parallel
 paru
 patch
 pavucontrol
@@ -137,6 +144,7 @@ shellcheck-bin
 sof-firmware
 spotify
 steam
+stegseek
 sudo
 tectonic
 terminus-font
