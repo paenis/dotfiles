@@ -75,6 +75,7 @@ iptables-nft
 jdk-openjdk
 jetbrains-toolbox
 john
+jq
 jre17-openjdk-headless
 libpulse
 libtool
@@ -109,6 +110,7 @@ parallel
 paru
 patch
 pavucontrol
+perf
 perl-file-homedir
 perl-yaml-tiny
 picom

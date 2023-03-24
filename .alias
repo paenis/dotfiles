@@ -9,4 +9,17 @@ cpdots() {
 
 alias ls="ls --color=auto"
 
+alias g="git"
+alias gp="g push"
+alias gss="g status --short"
+alias gco="g checkout"
+alias gcob="gco -b"
+alias gc="g commit"
+alias gcm="gc -m"
+alias gcav="gc -av"
+alias grh="g reset --hard"
+alias gll="g log"
+alias gl="gll -1 HEAD"
+alias glo="gll --oneline -n 10"
+
 eval "$(thefuck --alias)"
