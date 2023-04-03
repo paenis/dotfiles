@@ -8,7 +8,7 @@
 source ".alias"
 
 export DOTBARE_DIR="$HOME/.dotbare"
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$HOME/.local/bin:$PATH"
 PS1='[\u@\h \W]\$ '
 
 # start ssh-agent
@@ -32,3 +32,5 @@ else
 	export PROMPT_COMMAND="set_window_title"
 fi
 
+
+source /home/cark/.config/broot/launcher/bash/br

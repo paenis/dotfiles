@@ -1,4 +1,5 @@
 acpilight
+afl
 alacritty
 alsa-utils
 ansible-core
@@ -13,10 +14,10 @@ bash-completion
 bat
 bind
 binutils
-binwalk
 bison
 bluez-utils
 bottom
+broot
 btrfs-progs
 capitaine-cursors
 ciphey
@@ -34,12 +35,12 @@ efibootmgr
 exiv2
 fakeroot
 fbcat
+fd
 feh
 file
 findutils
 firefox
 flex
-foremost
 fprintd
 fwupd
 gawk
@@ -60,7 +61,9 @@ gst-plugin-pipewire
 gzip
 hashcat
 hashcat-utils
+heaptrace
 htop
+hyperfine
 i3-wm
 i3blocks
 i3lock
@@ -77,6 +80,7 @@ jetbrains-toolbox
 john
 jq
 jre17-openjdk-headless
+just
 libpulse
 libtool
 linux
@@ -89,6 +93,7 @@ mesa-utils
 mingw-w64-gcc
 mkinitcpio-firmware
 mtr
+multilib-devel
 nano
 neofetch
 nerd-fonts-git
@@ -110,6 +115,7 @@ parallel
 paru
 patch
 pavucontrol
+peda
 perf
 perl-file-homedir
 perl-yaml-tiny
@@ -133,6 +139,7 @@ python-pip
 python-requests
 python-virtualenv
 python2-bin
+radamsa
 radian
 reflector
 ripgrep
@@ -140,13 +147,15 @@ rofi
 rofi-calc
 rsync
 rustup
+rz-cutter
+rz-ghidra
+scc
 scrot
 sed
 shellcheck-bin
 sof-firmware
 spotify
 steam
-stegseek
 sudo
 tectonic
 terminus-font
