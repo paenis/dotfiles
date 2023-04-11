@@ -4,4 +4,4 @@
 	email = 46578974+paenis@users.noreply.github.com
 	name = paenis
 [core]
-	pager = less -+F -+X
+	pager = less -F -+X
