@@ -1,7 +1,9 @@
+[core]
+	pager = less -F -+X
+
 [credential]
 	helper = store
+
 [user]
 	email = 46578974+paenis@users.noreply.github.com
 	name = paenis
-[core]
-	pager = less -F -+X

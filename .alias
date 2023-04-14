@@ -22,5 +22,7 @@ alias gll="g log"
 alias gl="gll -1 HEAD"
 alias glo="gll --oneline -n 10"
 alias gu="g pull"
+alias ga="g add"
+alias gaa="ga --all"
 
 eval "$(thefuck --alias)"
