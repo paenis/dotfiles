@@ -32,12 +32,14 @@ dnsmasq
 dotbare
 duf
 dunst
+dust
 efibootmgr
 exiv2
 fakeroot
 fbcat
 fd
 feh
+feroxbuster-bin
 file
 findutils
 firefox
@@ -146,6 +148,7 @@ ripgrep
 rofi
 rofi-calc
 rsync
+rustscan
 rustup
 rz-cutter
 rz-ghidra
