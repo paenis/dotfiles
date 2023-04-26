@@ -21,7 +21,6 @@ broot
 btrfs-progs
 capitaine-cursors
 checksec
-ciphey
 clinfo
 dbus-python
 debugedit
@@ -35,6 +34,7 @@ dunst
 dust
 efibootmgr
 exiv2
+expac
 fakeroot
 fbcat
 fd
@@ -104,6 +104,7 @@ net-tools
 netdiscover
 networkmanager
 nginx
+nikto
 nmap
 noto-fonts-emoji
 npm
@@ -134,14 +135,11 @@ polybar
 powershell-bin
 prismlauncher-bin
 pwgen
-python-beautifulsoup4
-python-bsddb
-python-gobject
-python-lxml
 python-pip
 python-requests
 python-virtualenv
 python2-bin
+qbittorrent
 radian
 reflector
 ripgrep
