@@ -24,6 +24,7 @@ capitaine-cursors
 checksec
 clinfo
 dbus-python
+dconf-editor
 debugedit
 discord
 dmenu
