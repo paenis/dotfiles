@@ -136,6 +136,7 @@ polybar
 powershell-bin
 prismlauncher-bin
 pwgen
+python-gobject
 python-pip
 python-requests
 python-virtualenv
