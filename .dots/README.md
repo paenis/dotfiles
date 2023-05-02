@@ -36,5 +36,6 @@ configs that can't be put into $HOME can be found under [.dots/conf](/.dots/conf
   - [ ] SDDM (with theme)
   - [ ] greetd-qtgreet
   - [ ] greetd-regreet
+- [ ] fix my damn polybar icons (mdi -> md)
 
 [sw]: https://github.com/swaywm/sway/wiki/Useful-add-ons-for-sway

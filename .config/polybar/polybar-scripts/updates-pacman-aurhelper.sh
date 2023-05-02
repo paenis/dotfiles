@@ -16,8 +16,18 @@ fi
 updates=$((updates_arch + updates_aur))
 
 if [ "$updates" -gt 0 ]; then
-    echo "$updates"
-    # echo "$updates_arch / $updates_aur"
+    # echo "$updates"
+    e="$updates / "
+    if [ "$updates_arch" -gt 0 ]; then
+        e="$e${updates_arch} repo"
+        if [ "$updates_aur" -gt 0 ]; then
+            e="$e + "
+        fi
+    fi
+    if [ "$updates_aur" -gt 0 ]; then
+        e="$e${updates_aur} AUR"
+    fi
+    echo "$e"
 else
     echo ""
     # echo 0
