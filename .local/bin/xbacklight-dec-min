@@ -1,0 +1,2 @@
+min() { printf "%s\n" "$@" | sort -n | head -1; }
+xbacklight -dec $( min $1 $(( $( xbacklight -get ) - $2 )) ) -steps 10
