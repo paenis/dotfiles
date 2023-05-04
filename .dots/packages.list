@@ -15,6 +15,7 @@ bat
 bind
 binutils
 bison
+bitsnpicas
 bluez-utils
 bottom
 breeze-icons
@@ -23,6 +24,7 @@ btrfs-progs
 capitaine-cursors
 checksec
 clinfo
+cozette-otb
 dbus-python
 dconf-editor
 debugedit
@@ -83,6 +85,7 @@ jdk-openjdk
 jetbrains-toolbox
 john
 jq
+jre11-openjdk
 jre17-openjdk-headless
 just
 libpulse
@@ -135,6 +138,9 @@ plocate
 polybar
 powershell-bin
 prismlauncher-bin
+psf-cozette
+psf-unifont
+psftools
 pwgen
 python-gobject
 python-pip
