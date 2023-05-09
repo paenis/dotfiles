@@ -69,6 +69,7 @@ gzip
 hashcat
 hashcat-utils
 heaptrace
+helix
 htop
 hyperfine
 i3-wm
