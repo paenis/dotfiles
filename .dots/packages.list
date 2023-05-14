@@ -83,6 +83,7 @@ intel-ucode
 inxi
 iptables-nft
 jdk-openjdk
+jdk17-openjdk
 jetbrains-toolbox
 john
 jq
@@ -97,6 +98,8 @@ lynx
 m4
 make
 man-db
+mangohud
+mangohud-common
 mesa-utils
 mingw-w64-gcc
 mkinitcpio-firmware
@@ -138,7 +141,7 @@ playerctl
 plocate
 polybar
 powershell-bin
-prismlauncher-bin
+prismlauncher-qt5-git
 psf-cozette
 psf-unifont
 psftools
