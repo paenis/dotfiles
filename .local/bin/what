@@ -1,0 +1,3 @@
+#!/bin/bash
+printf '%s: ' "$1"
+pacman -F "$(which "$1")"

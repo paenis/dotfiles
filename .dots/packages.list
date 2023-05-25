@@ -99,7 +99,6 @@ m4
 make
 man-db
 mangohud
-mangohud-common
 mesa-utils
 mingw-w64-gcc
 mkinitcpio-firmware
@@ -178,6 +177,7 @@ texlive-core
 thefuck
 tlp
 tree
+trippy
 ttf-dejavu
 ttf-twemoji
 unzip
