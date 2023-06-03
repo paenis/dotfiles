@@ -1,2 +1,2 @@
 min() { printf "%s\n" "$@" | sort -n | head -1; }
-xbacklight -dec $( min $1 $( jq -nf /dev/stdin <<<"$( xbacklight -getf ) - $2" ) ) -steps 10
+xbacklight -dec $( min $1 $( jq -nf /dev/stdin <<<"$( xbacklight -getf -perceived ) - $2" ) ) -perceived -steps 10

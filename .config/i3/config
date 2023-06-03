@@ -20,9 +20,9 @@ bindsym --release Shift+Print exec --no-startup-id $HOME/.local/bin/screenshot-s
 bindsym $Mod+d exec "rofi -show drun"
 bindsym $Mod+Tab exec "rofi -show window"
 
-bindsym XF86MonBrightnessUp exec "xbacklight +5 -steps 10"
+bindsym XF86MonBrightnessUp exec "xbacklight +5 -perceived -steps 10"
 # prevent setting 0 brightness
-bindsym XF86MonBrightnessDown exec $HOME/.local/bin/xbacklight-dec-min 5 1
+bindsym XF86MonBrightnessDown exec $HOME/.local/bin/xbacklight-dec-min 5 40
 
 ### DEFAULTS ###
 
