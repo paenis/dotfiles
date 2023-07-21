@@ -24,6 +24,10 @@ bindsym XF86MonBrightnessUp exec "xbacklight +5 -perceived -steps 10"
 # prevent setting 0 brightness
 bindsym XF86MonBrightnessDown exec $HOME/.local/bin/xbacklight-dec-min 5 40
 
+# move workspaces between monitors
+bindsym $mod+greater move workspace to output right
+bindsym $mod+less move workspace to output left
+
 ### DEFAULTS ###
 
 # Font for window titles. Will also be used by the bar unless a different font

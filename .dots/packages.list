@@ -4,6 +4,7 @@ alacritty
 alsa-utils
 ansible-core
 ansible-lint
+arandr
 arc-gtk-theme
 archlinux-keyring
 autoconf
@@ -163,8 +164,10 @@ rz-cutter
 rz-ghidra
 scc
 scrot
+seahorse
 sed
 shellcheck-bin
+smbclient
 sof-firmware
 spotify
 steam
