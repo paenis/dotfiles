@@ -34,3 +34,4 @@ fi
 
 
 source /home/cark/.config/broot/launcher/bash/br
+export PATH=$PATH:/home/cark/.spicetify

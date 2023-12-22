@@ -2,8 +2,6 @@ acpilight
 afl
 alacritty
 alsa-utils
-ansible-core
-ansible-lint
 arandr
 arc-gtk-theme
 archlinux-keyring
@@ -16,7 +14,6 @@ bat
 bind
 binutils
 bison
-bitsnpicas
 bluez-utils
 bottom
 breeze-icons
@@ -41,7 +38,6 @@ efibootmgr
 exiv2
 expac
 fakeroot
-fbcat
 fd
 feh
 feroxbuster-bin
@@ -92,6 +88,7 @@ jre11-openjdk
 jre17-openjdk-headless
 just
 libpulse
+libreoffice-fresh
 libtool
 linux
 linux-firmware
@@ -110,12 +107,14 @@ neofetch
 nerd-fonts-git
 net-tools
 netdiscover
+network-manager-applet
 networkmanager
 nginx
 nikto
 nmap
 noto-fonts-emoji
 npm
+obsidian
 oneko
 opencl-headers
 openssh
@@ -141,7 +140,7 @@ playerctl
 plocate
 polybar
 powershell-bin
-prismlauncher-qt5-git
+prismlauncher-qt5-bin
 psf-cozette
 psf-unifont
 psftools
@@ -169,6 +168,7 @@ sed
 shellcheck-bin
 smbclient
 sof-firmware
+solaar
 spotify
 steam
 sudo
@@ -183,10 +183,12 @@ tree
 trippy
 ttf-dejavu
 ttf-twemoji
+unrar
 unzip
 vencord-desktop-git
 vim
 visual-studio-code-bin
+vlc
 vulkan-intel
 wget
 which
@@ -200,5 +202,6 @@ xorg-xev
 xorg-xinit
 xterm
 zip
+zotero-bin
 zram-generator
 zsh-completions

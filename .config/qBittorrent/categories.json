@@ -1,2 +1,6 @@
 {
+    "movie": {
+        "download_path": false,
+        "save_path": "/home/cark/torrent/stream"
+    }
 }
