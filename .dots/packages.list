@@ -39,6 +39,7 @@ exiv2
 expac
 fakeroot
 fd
+featherwallet-appimage
 feh
 feroxbuster-bin
 file
@@ -124,6 +125,7 @@ pacman
 pacman-contrib
 parallel
 paru
+paru-debug
 patch
 pavucontrol
 peda
