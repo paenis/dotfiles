@@ -1,5 +1,5 @@
 acpilight
-afl
+afl++
 alacritty
 alsa-utils
 arandr
@@ -23,7 +23,6 @@ capitaine-cursors
 checksec
 clinfo
 cozette-otb
-dbus-python
 dconf-editor
 debugedit
 discord
@@ -56,6 +55,7 @@ git
 github-cli
 gnu-netcat
 gobuster
+google-earth-pro
 greetd
 greetd-tuigreet
 grep
@@ -86,7 +86,6 @@ jetbrains-toolbox
 john
 jq
 jre11-openjdk
-jre17-openjdk-headless
 just
 libpulse
 libreoffice-fresh
@@ -110,6 +109,8 @@ net-tools
 netdiscover
 network-manager-applet
 networkmanager
+networkmanager-openconnect
+networkmanager-vpnc
 nginx
 nikto
 nmap
@@ -147,6 +148,7 @@ psf-cozette
 psf-unifont
 psftools
 pwgen
+python-dbus
 python-gobject
 python-pip
 python-requests
