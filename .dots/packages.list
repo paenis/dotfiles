@@ -55,7 +55,6 @@ git
 github-cli
 gnu-netcat
 gobuster
-google-earth-pro
 greetd
 greetd-tuigreet
 grep
@@ -98,7 +97,6 @@ make
 man-db
 mangohud
 mesa-utils
-mingw-w64-gcc
 mkinitcpio-firmware
 mtr
 multilib-devel
@@ -110,6 +108,7 @@ netdiscover
 network-manager-applet
 networkmanager
 networkmanager-openconnect
+networkmanager-openvpn
 networkmanager-vpnc
 nginx
 nikto
@@ -118,6 +117,7 @@ noto-fonts-emoji
 npm
 obsidian
 oneko
+opam
 opencl-headers
 openssh
 oxipng
@@ -189,7 +189,6 @@ ttf-dejavu
 ttf-twemoji
 unrar
 unzip
-vencord-desktop-git
 vim
 visual-studio-code-bin
 vlc
@@ -197,8 +196,8 @@ vulkan-intel
 wget
 which
 whois
+wireguard-tools
 wireplumber
-wordlists
 xclip
 xdg-user-dirs
 xorg-server
