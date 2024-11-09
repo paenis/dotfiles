@@ -73,6 +73,7 @@ i3-wm
 i3blocks
 i3lock
 i3status
+imagemagick
 imhex-bin
 intel-compute-runtime
 intel-media-driver
@@ -102,7 +103,6 @@ mtr
 multilib-devel
 nano
 neofetch
-nerd-fonts-git
 net-tools
 netdiscover
 network-manager-applet
@@ -185,7 +185,11 @@ thefuck
 tlp
 tree
 trippy
+ttc-iosevka
 ttf-dejavu
+ttf-iosevka-nerd
+ttf-nerd-fonts-symbols
+ttf-nerd-fonts-symbols-mono
 ttf-twemoji
 unrar
 unzip
