@@ -1,0 +1,44 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[rust]": {
+        "editor.formatOnSave": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.fontFamily": "Iosevka Extended, monospace",
+    "editor.fontLigatures": true,
+    "editor.inlayHints.padding": true,
+    "editor.inlineSuggest.enabled": true,
+    "errorLens.problemRangeDecorationEnabled": true,
+    "evenBetterToml.formatter.alignEntries": true,
+    "evenBetterToml.formatter.allowedBlankLines": 2,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.suggestSmartCommit": false,
+    "github.copilot.enable": {
+        "*": false,
+        "markdown": true,
+        "plaintext": false,
+        "rust": true,
+        "scminput": false,
+        "yaml": false
+    },
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.typeEvaluation.enableReachabilityAnalysis": true,
+    "redhat.telemetry.enabled": false,
+    "remoteHub.commitDirectlyWarning": "off",
+    "shellcheck.customArgs": [
+        "-x"
+    ],
+    "shellcheck.useWorkspaceRootAsCwd": true,
+    "terminal.integrated.fontFamily": "Iosevka Extended",
+    "terminal.integrated.fontWeight": "normal",
+    "window.menuBarVisibility": "compact",
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.iconTheme": "material-icon-theme"
+}
