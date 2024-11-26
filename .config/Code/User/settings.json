@@ -19,12 +19,12 @@
     "git.confirmSync": false,
     "git.suggestSmartCommit": false,
     "github.copilot.enable": {
-        "*": false,
-        "markdown": true,
+        "*": true,
         "plaintext": false,
-        "rust": true,
+        "markdown": true,
         "scminput": false,
-        "yaml": false
+        "rust": true,
+        "yaml": true
     },
     "python.analysis.inlayHints.variableTypes": true,
     "python.analysis.typeCheckingMode": "standard",

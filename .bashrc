@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-source ".alias"
+source ~/.alias
 
 export DOTBARE_DIR="$HOME/.dotbare"
 export PATH="$HOME/.cargo/bin:$HOME/.local/bin:$PATH"

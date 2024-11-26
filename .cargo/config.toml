@@ -4,4 +4,4 @@ ar = "/usr/bin/x86_64-w64-mingw32-ar"
 
 [build]
 rustc-wrapper = "/home/cark/.cargo/bin/sccache"
-
+rustflags = ["-C", "link-arg=-fuse-ld=mold"]
