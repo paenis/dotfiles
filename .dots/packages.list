@@ -1,3 +1,4 @@
+7zip
 acpilight
 afl++
 alacritty
@@ -22,6 +23,7 @@ btrfs-progs
 capitaine-cursors
 checksec
 clinfo
+cmake
 cozette-otb
 dconf-editor
 debugedit
@@ -34,6 +36,7 @@ duf
 dunst
 dust
 efibootmgr
+exfat-utils
 exiv2
 expac
 fakeroot
@@ -86,6 +89,7 @@ jetbrains-toolbox
 john
 jq
 jre11-openjdk
+jre21-openjdk
 just
 libpulse
 libreoffice-fresh
@@ -122,7 +126,6 @@ opam
 opencl-headers
 openssh
 oxipng
-p7zip
 pacman
 pacman-contrib
 parallel
@@ -144,7 +147,7 @@ playerctl
 plocate
 polybar
 powershell-bin
-prismlauncher-qt5-bin
+prismlauncher
 psf-cozette
 psf-unifont
 psftools
