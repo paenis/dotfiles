@@ -1,6 +1,10 @@
 [core]
 	pager = less -F -+X
 
+[diff]
+	algorithm = minimal
+	colorMoved = default
+
 [credential]
 	helper = store
 
