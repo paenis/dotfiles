@@ -41,5 +41,6 @@
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "GitHub Dark Default",
     "workbench.iconTheme": "material-icon-theme",
-    "codeium.enableCodeLens": false
+    "codeium.enableCodeLens": false,
+    "gitlens.ai.model": "anthropic:claude-3-5-sonnet-latest",
 }

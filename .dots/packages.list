@@ -36,6 +36,7 @@ duf
 dunst
 dust
 efibootmgr
+ente-auth-bin
 exfat-utils
 exiv2
 expac
@@ -98,6 +99,7 @@ linux
 linux-firmware
 lynx
 m4
+mailspring-bin
 make
 man-db
 mangohud
@@ -201,6 +203,7 @@ vim
 visual-studio-code-bin
 vlc
 vulkan-intel
+vulkan-tools
 wget
 which
 whois

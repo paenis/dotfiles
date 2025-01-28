@@ -5,9 +5,6 @@
 	algorithm = minimal
 	colorMoved = default
 
-[credential]
-	helper = store
-
 [user]
-	email = 46578974+paenis@users.noreply.github.com
+	email = github+paenis@cark.moe
 	name = paenis
