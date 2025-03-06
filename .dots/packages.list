@@ -1,6 +1,5 @@
 7zip
 acpilight
-afl++
 alacritty
 alsa-utils
 arandr
@@ -56,7 +55,6 @@ gcc
 gettext
 gist
 git
-github-cli
 gnu-netcat
 gobuster
 greetd
@@ -92,6 +90,7 @@ jq
 jre11-openjdk
 jre21-openjdk
 just
+kcachegrind
 libpulse
 libreoffice-fresh
 libtool
@@ -147,6 +146,7 @@ pipewire-pulse
 pkgconf
 playerctl
 plocate
+pnpm
 polybar
 powershell-bin
 prismlauncher
@@ -187,6 +187,7 @@ terminus-font
 texinfo
 texlive-basic
 texlive-bin
+texlive-binextra
 thefuck
 tlp
 tree
@@ -199,6 +200,7 @@ ttf-nerd-fonts-symbols-mono
 ttf-twemoji
 unrar
 unzip
+valgrind
 vim
 visual-studio-code-bin
 vlc

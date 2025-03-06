@@ -8,3 +8,5 @@
 [user]
 	email = github+paenis@cark.moe
 	name = paenis
+[init]
+	defaultBranch = main
