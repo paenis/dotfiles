@@ -96,6 +96,7 @@ libreoffice-fresh
 libtool
 linux
 linux-firmware
+linux-headers
 lynx
 m4
 mailspring-bin
@@ -119,6 +120,7 @@ networkmanager-vpnc
 nginx
 nikto
 nmap
+noto-fonts-cjk
 noto-fonts-emoji
 npm
 obsidian
@@ -154,6 +156,7 @@ psf-cozette
 psf-unifont
 psftools
 pwgen
+pypy
 python-dbus
 python-gobject
 python-pip
@@ -209,13 +212,16 @@ vulkan-tools
 wget
 which
 whois
+windsurf
 wireguard-tools
 wireplumber
+xboxdrv
 xclip
 xdg-user-dirs
 xorg-server
 xorg-xev
 xorg-xinit
+xpadneo-dkms
 xterm
 zip
 zotero-bin
