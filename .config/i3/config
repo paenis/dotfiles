@@ -28,6 +28,8 @@ bindsym XF86MonBrightnessDown exec $HOME/.local/bin/xbacklight-dec-min 5 40
 bindsym $mod+greater move workspace to output right
 bindsym $mod+less move workspace to output left
 
+bindsym $mod+Shift+o exec oneko
+
 ### DEFAULTS ###
 
 # Font for window titles. Will also be used by the bar unless a different font

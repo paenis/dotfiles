@@ -263,4 +263,7 @@
     "window.customTitleBarVisibility": "auto",
     "latex-workshop.formatting.latex": "latexindent",
     "svelte.enable-ts-plugin": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
 }
