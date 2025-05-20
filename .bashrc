@@ -32,6 +32,26 @@ else
 	export PROMPT_COMMAND="set_window_title"
 fi
 
+# keep more history
+shopt -s histappend
+export HISTFILESIZE=10000
+export HISTSIZE=1000
 
 source /home/cark/.config/broot/launcher/bash/br
 export PATH=$PATH:/home/cark/.spicetify
+
+# pnpm
+export PNPM_HOME="/home/cark/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# bun
+bun_bin="/home/cark/.bun/bin"
+case ":$bun_bin:" in
+	*":$bun_bin:"*) ;;
+	*) export PATH="$bun_bin:$PATH" ;;
+esac
+# bun end

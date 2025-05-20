@@ -1,5 +1,6 @@
 [core]
-	pager = less -F -+X
+	pager = bat --plain --pager 'less -RF -+X'
+	compression = 8
 
 [diff]
 	algorithm = minimal
@@ -10,3 +11,7 @@
 	name = paenis
 [init]
 	defaultBranch = main
+[maintenance]
+	repo = /home/cark/dev/rust/github/neomantis-test/neomantis
+[merge]
+	conflictStyle = zdiff3

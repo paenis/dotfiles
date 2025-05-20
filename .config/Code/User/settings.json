@@ -1,11 +1,46 @@
 {
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[ocaml]": {
+        "editor.defaultFormatter": "ocamllabs.ocaml-platform"
+    },
     "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.formatOnType": true
     },
     "[rust]": {
         "editor.formatOnSave": true
     },
+    "[svelte]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "ansible.lightspeed.enabled": false,
+    "ansible.lightspeed.suggestions.enabled": false,
+    "biome.lsp.bin": "/home/cark/.bun/bin/biome",
+    "chat.todoListTool.enabled": true,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "diffEditor.experimental.showMoves": true,
     "diffEditor.ignoreTrimWhitespace": false,
+    "editor.aiStats.enabled": true,
     "editor.bracketPairColorization.enabled": false,
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.fontFamily": "Iosevka Extended, monospace",
@@ -16,179 +51,22 @@
     "evenBetterToml.formatter.alignEntries": true,
     "evenBetterToml.formatter.allowedBlankLines": 2,
     "git.autofetch": true,
+    "git.blame.editorDecoration.enabled": true,
+    "git.blame.editorDecoration.template": "${authorName}, ${authorDateAgo} • ${subject}",
     "git.confirmSync": false,
     "git.suggestSmartCommit": false,
+    "github.copilot.chat.newWorkspace.useContext7": true,
     "github.copilot.enable": {
         "*": true,
-        "plaintext": false,
+        "c": true,
         "markdown": true,
-        "scminput": false,
+        "plaintext": false,
         "rust": true,
+        "scminput": false,
         "yaml": true
     },
-    "python.analysis.inlayHints.variableTypes": true,
-    "python.analysis.typeCheckingMode": "standard",
-    "python.analysis.typeEvaluation.enableReachabilityAnalysis": true,
-    "redhat.telemetry.enabled": false,
-    "remoteHub.commitDirectlyWarning": "off",
-    "shellcheck.customArgs": [
-        "-x"
-    ],
-    "shellcheck.useWorkspaceRootAsCwd": true,
-    "terminal.integrated.fontFamily": "Iosevka Extended",
-    "terminal.integrated.fontWeight": "normal",
-    "window.menuBarVisibility": "compact",
-    "window.titleBarStyle": "custom",
-    "workbench.colorTheme": "GitHub Dark Default",
-    "workbench.iconTheme": "material-icon-theme",
-    "codeium.enableCodeLens": false,
-    "gitlens.ai.model": "anthropic:claude-3-5-sonnet-latest",
-    "codeium.enableConfig": {
-        "*": true,
-        "just": true,
-        "markdown": true,
-        "c": false
-    },
-    "cmake.pinnedCommands": [
-        "workbench.action.tasks.configureTaskRunner",
-        "workbench.action.tasks.runTask"
-    ],
-    "latex-workshop.latex.tools": [
-        {
-            "name": "tectonic -X",
-            "command": "tectonic",
-            "args": [
-                "-X",
-                "build",
-                "--keep-logs",
-                "--print",
-            ]
-        },
-        {
-            "name": "latexmk",
-            "command": "latexmk",
-            "args": [
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-file-line-error",
-                "-pdf",
-                "-outdir=%OUTDIR%",
-                "%DOC%"
-            ],
-            "env": {}
-        },
-        {
-            "name": "lualatexmk",
-            "command": "latexmk",
-            "args": [
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-file-line-error",
-                "-lualatex",
-                "-outdir=%OUTDIR%",
-                "%DOC%"
-            ],
-            "env": {}
-        },
-        {
-            "name": "xelatexmk",
-            "command": "latexmk",
-            "args": [
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-file-line-error",
-                "-xelatex",
-                "-outdir=%OUTDIR%",
-                "%DOC%"
-            ],
-            "env": {}
-        },
-        {
-            "name": "latexmk_rconly",
-            "command": "latexmk",
-            "args": [
-                "%DOC%"
-            ],
-            "env": {}
-        },
-        {
-            "name": "pdflatex",
-            "command": "pdflatex",
-            "args": [
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-file-line-error",
-                "%DOC%"
-            ],
-            "env": {}
-        },
-        {
-            "name": "bibtex",
-            "command": "bibtex",
-            "args": [
-                "%DOCFILE%"
-            ],
-            "env": {}
-        },
-        {
-            "name": "rnw2tex",
-            "command": "Rscript",
-            "args": [
-                "-e",
-                "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"
-            ],
-            "env": {}
-        },
-        {
-            "name": "jnw2tex",
-            "command": "julia",
-            "args": [
-                "-e",
-                "using Weave; weave(\"%DOC_EXT%\", doctype=\"tex\")"
-            ],
-            "env": {}
-        },
-        {
-            "name": "jnw2texminted",
-            "command": "julia",
-            "args": [
-                "-e",
-                "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"
-            ],
-            "env": {}
-        },
-        {
-            "name": "pnw2tex",
-            "command": "pweave",
-            "args": [
-                "-f",
-                "tex",
-                "%DOC_EXT%"
-            ],
-            "env": {}
-        },
-        {
-            "name": "pnw2texminted",
-            "command": "pweave",
-            "args": [
-                "-f",
-                "texminted",
-                "%DOC_EXT%"
-            ],
-            "env": {}
-        },
-        {
-            "name": "tectonic",
-            "command": "tectonic",
-            "args": [
-                "--synctex",
-                "--keep-logs",
-                "--print",
-                "%DOC%.tex"
-            ],
-            "env": {}
-        }
-    ],
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "latex-workshop.formatting.latex": "latexindent",
     "latex-workshop.latex.recipes": [
         {
             "name": "tectonic -X",
@@ -257,13 +135,159 @@
             ]
         }
     ],
-    "[ocaml]": {
-        "editor.defaultFormatter": "ocamllabs.ocaml-platform"
-    },
-    "window.customTitleBarVisibility": "auto",
-    "latex-workshop.formatting.latex": "latexindent",
+    "latex-workshop.latex.tools": [
+        {
+            "args": [
+                "-X",
+                "build",
+                "--keep-logs",
+                "--print"
+            ],
+            "command": "tectonic",
+            "name": "tectonic -X"
+        },
+        {
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "command": "latexmk",
+            "env": {},
+            "name": "latexmk"
+        },
+        {
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-lualatex",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "command": "latexmk",
+            "env": {},
+            "name": "lualatexmk"
+        },
+        {
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-xelatex",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "command": "latexmk",
+            "env": {},
+            "name": "xelatexmk"
+        },
+        {
+            "args": [
+                "%DOC%"
+            ],
+            "command": "latexmk",
+            "env": {},
+            "name": "latexmk_rconly"
+        },
+        {
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "command": "pdflatex",
+            "env": {},
+            "name": "pdflatex"
+        },
+        {
+            "args": [
+                "%DOCFILE%"
+            ],
+            "command": "bibtex",
+            "env": {},
+            "name": "bibtex"
+        },
+        {
+            "args": [
+                "-e",
+                "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"
+            ],
+            "command": "Rscript",
+            "env": {},
+            "name": "rnw2tex"
+        },
+        {
+            "args": [
+                "-e",
+                "using Weave; weave(\"%DOC_EXT%\", doctype=\"tex\")"
+            ],
+            "command": "julia",
+            "env": {},
+            "name": "jnw2tex"
+        },
+        {
+            "args": [
+                "-e",
+                "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"
+            ],
+            "command": "julia",
+            "env": {},
+            "name": "jnw2texminted"
+        },
+        {
+            "args": [
+                "-f",
+                "tex",
+                "%DOC_EXT%"
+            ],
+            "command": "pweave",
+            "env": {},
+            "name": "pnw2tex"
+        },
+        {
+            "args": [
+                "-f",
+                "texminted",
+                "%DOC_EXT%"
+            ],
+            "command": "pweave",
+            "env": {},
+            "name": "pnw2texminted"
+        },
+        {
+            "args": [
+                "--synctex",
+                "--keep-logs",
+                "--print",
+                "%DOC%.tex"
+            ],
+            "command": "tectonic",
+            "env": {},
+            "name": "tectonic"
+        }
+    ],
+    "redhat.telemetry.enabled": false,
+    "remoteHub.commitDirectlyWarning": "off",
+    "ruff.nativeServer": "on",
+    "rust-analyzer.check.command": "clippy",
+    "rust-analyzer.hover.memoryLayout.niches": true,
+    "rust-analyzer.hover.memoryLayout.padding": "decimal",
+    "shellcheck.customArgs": [
+        "-x"
+    ],
+    "shellcheck.useWorkspaceRootAsCwd": true,
     "svelte.enable-ts-plugin": true,
-    "[markdown]": {
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-    },
+    "telemetry.telemetryLevel": "error",
+    "terminal.integrated.fontFamily": "Iosevka Extended",
+    "terminal.integrated.fontWeight": "normal",
+    "window.customTitleBarVisibility": "auto",
+    "window.menuBarVisibility": "compact",
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.iconTheme": "material-icon-theme"
 }
