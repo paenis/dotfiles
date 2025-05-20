@@ -2,6 +2,7 @@
 acpilight
 alacritty
 alsa-utils
+ansible-lint
 arandr
 arc-gtk-theme
 archlinux-keyring
@@ -15,14 +16,15 @@ bind
 binutils
 bison
 bluez-utils
-bottom
 breeze-icons
 broot
+btop
 btrfs-progs
 capitaine-cursors
 checksec
 clinfo
 cmake
+compsize
 cozette-otb
 dconf-editor
 debugedit
@@ -56,7 +58,7 @@ gettext
 gist
 git
 gnu-netcat
-gobuster
+go
 greetd
 greetd-tuigreet
 grep
@@ -78,6 +80,7 @@ i3status
 imagemagick
 imhex-bin
 intel-compute-runtime
+intel-gpu-tools
 intel-media-driver
 intel-ucode
 inxi
@@ -97,7 +100,6 @@ libtool
 linux
 linux-firmware
 linux-headers
-lynx
 m4
 mailspring-bin
 make
@@ -106,7 +108,6 @@ mangohud
 mesa-utils
 mkinitcpio-firmware
 mold
-mtr
 multilib-devel
 nano
 neofetch
@@ -122,7 +123,6 @@ nikto
 nmap
 noto-fonts-cjk
 noto-fonts-emoji
-npm
 obsidian
 oneko
 opam
@@ -155,7 +155,6 @@ prismlauncher
 psf-cozette
 psf-unifont
 psftools
-pwgen
 pypy
 python-dbus
 python-gobject
@@ -164,7 +163,6 @@ python-requests
 python-virtualenv
 python2-bin
 qbittorrent
-radian
 reflector
 ripgrep
 rockyou
@@ -180,6 +178,7 @@ scrot
 seahorse
 sed
 shellcheck-bin
+smartmontools
 smbclient
 sof-firmware
 solaar
@@ -192,8 +191,8 @@ texinfo
 texlive-basic
 texlive-bin
 texlive-binextra
-thefuck
 tlp
+tmux
 tree
 trippy
 ttc-iosevka
@@ -204,6 +203,7 @@ ttf-nerd-fonts-symbols-mono
 ttf-twemoji
 unrar
 unzip
+uv
 valgrind
 vim
 visual-studio-code-bin
@@ -216,6 +216,7 @@ whois
 windsurf
 wireguard-tools
 wireplumber
+wordlists
 xboxdrv
 xclip
 xdg-user-dirs
@@ -223,7 +224,7 @@ xorg-server
 xorg-xev
 xorg-xinit
 xpadneo-dkms
-xterm
+zed
 zip
 zotero-bin
 zram-generator

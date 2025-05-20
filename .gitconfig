@@ -1,5 +1,6 @@
 [core]
 	pager = less -F -+X
+	compression = 8
 
 [diff]
 	algorithm = minimal

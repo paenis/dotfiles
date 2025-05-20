@@ -24,7 +24,8 @@
         "markdown": true,
         "scminput": false,
         "rust": true,
-        "yaml": true
+        "yaml": true,
+        "c": false
     },
     "python.analysis.inlayHints.variableTypes": true,
     "python.analysis.typeCheckingMode": "standard",
@@ -266,4 +267,7 @@
     "[markdown]": {
         "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "ansible.lightspeed.enabled": false,
+    "ansible.lightspeed.suggestions.enabled": false,
 }
