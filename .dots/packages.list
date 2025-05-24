@@ -16,6 +16,7 @@ bind
 binutils
 bison
 bluez-utils
+bpftrace
 breeze-icons
 broot
 btop
@@ -163,6 +164,7 @@ python-requests
 python-virtualenv
 python2-bin
 qbittorrent
+redshift
 reflector
 ripgrep
 rockyou

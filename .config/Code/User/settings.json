@@ -25,7 +25,7 @@
         "scminput": false,
         "rust": true,
         "yaml": true,
-        "c": false
+        "c": true
     },
     "python.analysis.inlayHints.variableTypes": true,
     "python.analysis.typeCheckingMode": "standard",
@@ -270,4 +270,6 @@
     "github.copilot.nextEditSuggestions.enabled": true,
     "ansible.lightspeed.enabled": false,
     "ansible.lightspeed.suggestions.enabled": false,
+    "git.blame.editorDecoration.enabled": true,
+    "git.blame.editorDecoration.template": "${authorName}, ${authorDateAgo} • ${subject}",
 }
