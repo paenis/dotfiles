@@ -27,6 +27,8 @@ clinfo
 cmake
 compsize
 cozette-otb
+cursor-bin
+czkawka-gui-bin
 dconf-editor
 debugedit
 discord
@@ -43,6 +45,7 @@ exfat-utils
 exiv2
 expac
 fakeroot
+fastfetch
 fd
 featherwallet-appimage
 feh
@@ -73,6 +76,7 @@ hashcat-utils
 heaptrace
 helix
 htop
+hyfetch
 hyperfine
 i3-wm
 i3blocks
@@ -93,6 +97,7 @@ john
 jq
 jre11-openjdk
 jre21-openjdk
+jujutsu
 just
 kcachegrind
 libpulse
@@ -111,7 +116,6 @@ mkinitcpio-firmware
 mold
 multilib-devel
 nano
-neofetch
 net-tools
 netdiscover
 network-manager-applet
@@ -125,6 +129,7 @@ nmap
 noto-fonts-cjk
 noto-fonts-emoji
 obsidian
+onefetch
 oneko
 opam
 opencl-headers
@@ -215,7 +220,6 @@ vulkan-tools
 wget
 which
 whois
-windsurf
 wireguard-tools
 wireplumber
 wordlists

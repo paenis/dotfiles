@@ -32,6 +32,10 @@ else
 	export PROMPT_COMMAND="set_window_title"
 fi
 
+# keep more history
+shopt -s histappend
+export HISTFILESIZE=10000
+export HISTSIZE=1000
 
 source /home/cark/.config/broot/launcher/bash/br
 export PATH=$PATH:/home/cark/.spicetify
