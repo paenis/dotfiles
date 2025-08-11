@@ -4,7 +4,7 @@ ar = "/usr/bin/x86_64-w64-mingw32-ar"
 
 [build]
 rustc-wrapper = "/home/cark/.cargo/bin/sccache"
-rustflags = ["-C", "link-arg=-fuse-ld=mold", "-C", "target-cpu=native", "-Z", "threads=8"]
+rustflags = ["-C", "link-arg=-fuse-ld=mold", "-C", "target-cpu=native"]
 
 [unstable]
 gc = true

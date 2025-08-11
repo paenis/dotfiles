@@ -8,6 +8,7 @@ arc-gtk-theme
 archlinux-keyring
 autoconf
 automake
+aws-cli-v2
 base
 base-devel
 bash-completion
@@ -21,13 +22,13 @@ breeze-icons
 broot
 btop
 btrfs-progs
+bun-bin
 capitaine-cursors
 checksec
 clinfo
 cmake
 compsize
 cozette-otb
-cursor-bin
 czkawka-gui-bin
 dconf-editor
 debugedit
@@ -44,6 +45,7 @@ ente-auth-bin
 exfat-utils
 exiv2
 expac
+eza
 fakeroot
 fastfetch
 fd
@@ -103,6 +105,7 @@ kcachegrind
 libpulse
 libreoffice-fresh
 libtool
+libva-utils
 linux
 linux-firmware
 linux-headers
@@ -114,6 +117,7 @@ mangohud
 mesa-utils
 mkinitcpio-firmware
 mold
+mpv
 multilib-devel
 nano
 net-tools
@@ -133,6 +137,7 @@ onefetch
 oneko
 opam
 opencl-headers
+opencode-bin
 openssh
 oxipng
 pacman
@@ -154,7 +159,6 @@ pipewire-pulse
 pkgconf
 playerctl
 plocate
-pnpm
 polybar
 powershell-bin
 prismlauncher

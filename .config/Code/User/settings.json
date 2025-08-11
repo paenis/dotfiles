@@ -12,7 +12,8 @@
         "editor.defaultFormatter": "ocamllabs.ocaml-platform"
     },
     "[python]": {
-        "editor.formatOnType": true
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "charliermarsh.ruff"
     },
     "[rust]": {
         "editor.formatOnSave": true
@@ -260,17 +261,6 @@
             "name": "tectonic"
         }
     ],
-    "mcp": {
-        "servers": {
-            "git": {
-                "args": [
-                    "mcp-server-git"
-                ],
-                "command": "uvx",
-                "type": "stdio"
-            }
-        }
-    },
     "python.analysis.inlayHints.variableTypes": true,
     "python.analysis.typeCheckingMode": "standard",
     "python.analysis.typeEvaluation.enableReachabilityAnalysis": true,
@@ -291,5 +281,8 @@
     "window.menuBarVisibility": "compact",
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "GitHub Dark Default",
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "diffEditor.experimental.showMoves": true,
+    "editor.aiStats.enabled": true,
+    "telemetry.telemetryLevel": "error"
 }
