@@ -47,3 +47,11 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# bun
+bun_bin="/home/cark/.bun/bin"
+case ":$bun_bin:" in
+	*":$bun_bin:"*) ;;
+	*) export PATH="$bun_bin:$PATH" ;;
+esac
+# bun end

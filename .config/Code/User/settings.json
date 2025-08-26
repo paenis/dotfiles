@@ -12,8 +12,8 @@
         "editor.defaultFormatter": "ocamllabs.ocaml-platform"
     },
     "[python]": {
-        "editor.formatOnType": true,
-        "editor.defaultFormatter": "charliermarsh.ruff"
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnType": true
     },
     "[rust]": {
         "editor.formatOnSave": true
@@ -26,12 +26,14 @@
     },
     "ansible.lightspeed.enabled": false,
     "ansible.lightspeed.suggestions.enabled": false,
-    "biome.lsp.bin": "/home/cark/.local/share/pnpm/biome",
+    "biome.lsp.bin": "/home/cark/.bun/bin/biome",
     "cmake.pinnedCommands": [
         "workbench.action.tasks.configureTaskRunner",
         "workbench.action.tasks.runTask"
     ],
+    "diffEditor.experimental.showMoves": true,
     "diffEditor.ignoreTrimWhitespace": false,
+    "editor.aiStats.enabled": true,
     "editor.bracketPairColorization.enabled": false,
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.fontFamily": "Iosevka Extended, monospace",
@@ -261,9 +263,6 @@
             "name": "tectonic"
         }
     ],
-    "python.analysis.inlayHints.variableTypes": true,
-    "python.analysis.typeCheckingMode": "standard",
-    "python.analysis.typeEvaluation.enableReachabilityAnalysis": true,
     "redhat.telemetry.enabled": false,
     "remoteHub.commitDirectlyWarning": "off",
     "ruff.nativeServer": "on",
@@ -275,6 +274,7 @@
     ],
     "shellcheck.useWorkspaceRootAsCwd": true,
     "svelte.enable-ts-plugin": true,
+    "telemetry.telemetryLevel": "error",
     "terminal.integrated.fontFamily": "Iosevka Extended",
     "terminal.integrated.fontWeight": "normal",
     "window.customTitleBarVisibility": "auto",
@@ -282,7 +282,7 @@
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "GitHub Dark Default",
     "workbench.iconTheme": "material-icon-theme",
-    "diffEditor.experimental.showMoves": true,
-    "editor.aiStats.enabled": true,
-    "telemetry.telemetryLevel": "error"
+    "chat.todoListTool.enabled": true,
+    "github.copilot.chat.newWorkspace.useContext7": true,
+    "github.copilot.chat.alternateGptPrompt.enabled": true,
 }
