@@ -24,6 +24,7 @@ btop
 btrfs-progs
 bun-bin
 capitaine-cursors
+capnproto
 checksec
 clinfo
 cmake
@@ -41,6 +42,7 @@ duf
 dunst
 dust
 efibootmgr
+electrum
 ente-auth-bin
 exfat-utils
 exiv2

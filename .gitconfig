@@ -13,3 +13,5 @@
 	defaultBranch = main
 [maintenance]
 	repo = /home/cark/dev/rust/github/neomantis-test/neomantis
+[merge]
+	conflictStyle = zdiff3

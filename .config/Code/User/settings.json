@@ -1,5 +1,11 @@
 {
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
     "[javascript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[json]": {
         "editor.defaultFormatter": "biomejs.biome"
     },
     "[jsonc]": {
@@ -27,6 +33,7 @@
     "ansible.lightspeed.enabled": false,
     "ansible.lightspeed.suggestions.enabled": false,
     "biome.lsp.bin": "/home/cark/.bun/bin/biome",
+    "chat.todoListTool.enabled": true,
     "cmake.pinnedCommands": [
         "workbench.action.tasks.configureTaskRunner",
         "workbench.action.tasks.runTask"
@@ -48,6 +55,7 @@
     "git.blame.editorDecoration.template": "${authorName}, ${authorDateAgo} • ${subject}",
     "git.confirmSync": false,
     "git.suggestSmartCommit": false,
+    "github.copilot.chat.newWorkspace.useContext7": true,
     "github.copilot.enable": {
         "*": true,
         "c": true,
@@ -281,8 +289,5 @@
     "window.menuBarVisibility": "compact",
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "GitHub Dark Default",
-    "workbench.iconTheme": "material-icon-theme",
-    "chat.todoListTool.enabled": true,
-    "github.copilot.chat.newWorkspace.useContext7": true,
-    "github.copilot.chat.alternateGptPrompt.enabled": true,
+    "workbench.iconTheme": "material-icon-theme"
 }
