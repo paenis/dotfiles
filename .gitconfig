@@ -1,6 +1,7 @@
 [core]
 	pager = bat --plain --pager 'less -RF -+X'
 	compression = 8
+	excludesFile = .gitignore.global
 
 [diff]
 	algorithm = minimal
