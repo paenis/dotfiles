@@ -3,13 +3,13 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "biomejs.biome"
+        "editor.defaultFormatter": "oxc.oxc-vscode"
     },
     "[json]": {
-        "editor.defaultFormatter": "biomejs.biome"
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[jsonc]": {
-        "editor.defaultFormatter": "biomejs.biome"
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[markdown]": {
         "editor.defaultFormatter": "yzhang.markdown-all-in-one"
@@ -28,7 +28,7 @@
         "editor.defaultFormatter": "biomejs.biome"
     },
     "[typescript]": {
-        "editor.defaultFormatter": "biomejs.biome"
+        "editor.defaultFormatter": "oxc.oxc-vscode"
     },
     "ansible.lightspeed.enabled": false,
     "ansible.lightspeed.suggestions.enabled": false,
@@ -58,11 +58,11 @@
     "github.copilot.chat.newWorkspace.useContext7": true,
     "github.copilot.enable": {
         "*": true,
-        "c": true,
-        "markdown": true,
         "plaintext": false,
-        "rust": true,
+        "markdown": true,
         "scminput": false,
+        "c": true,
+        "rust": true,
         "yaml": true
     },
     "github.copilot.nextEditSuggestions.enabled": true,
@@ -277,6 +277,7 @@
     "rust-analyzer.check.command": "clippy",
     "rust-analyzer.hover.memoryLayout.niches": true,
     "rust-analyzer.hover.memoryLayout.padding": "decimal",
+    "search.useGlobalIgnoreFiles": true,
     "shellcheck.customArgs": [
         "-x"
     ],
@@ -289,5 +290,32 @@
     "window.menuBarVisibility": "compact",
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "GitHub Dark Default",
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "oxc.oxc-vscode"
+    },
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "chat.mcp.autostart": "newAndOutdated",
+    "biome.requireConfiguration": true,
+    "biome.configurationPath": "",
+    "github.copilot.chat.codesearch.enabled": true,
+    "github.copilot.chat.customAgents.showOrganizationAndEnterpriseAgents": true,
+    "github.copilot.chat.responsesApiReasoningEffort": "high",
+    "[ansible]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    }
 }

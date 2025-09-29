@@ -40,6 +40,8 @@ export HISTSIZE=1000
 source /home/cark/.config/broot/launcher/bash/br
 export PATH=$PATH:/home/cark/.spicetify
 
+export OLLAMA_ORIGINS="https://*.wikipedia.org"
+
 # pnpm
 export PNPM_HOME="/home/cark/.local/share/pnpm"
 case ":$PATH:" in
