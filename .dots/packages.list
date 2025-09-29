@@ -31,6 +31,7 @@ cmake
 compsize
 cozette-otb
 czkawka-gui-bin
+datamash
 dconf-editor
 debugedit
 discord
@@ -40,6 +41,7 @@ dnsmasq
 dotbare
 duf
 dunst
+duperemove
 dust
 efibootmgr
 electrum
@@ -94,6 +96,7 @@ intel-gpu-tools
 intel-media-driver
 intel-ucode
 inxi
+iotop
 iptables-nft
 jdk-openjdk
 jdk17-openjdk
@@ -120,6 +123,7 @@ mangohud
 mesa-utils
 mkinitcpio-firmware
 mold
+mongodb-bin
 mpv
 multilib-devel
 nano
@@ -191,6 +195,7 @@ scc
 scrot
 seahorse
 sed
+seqtk
 shellcheck-bin
 smartmontools
 smbclient

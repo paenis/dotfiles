@@ -10,9 +10,12 @@
 [user]
 	email = github+paenis@cark.moe
 	name = paenis
+
 [init]
 	defaultBranch = main
+
 [maintenance]
 	repo = /home/cark/dev/rust/github/neomantis-test/neomantis
+
 [merge]
 	conflictStyle = zdiff3

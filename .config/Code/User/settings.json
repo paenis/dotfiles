@@ -277,6 +277,7 @@
     "rust-analyzer.check.command": "clippy",
     "rust-analyzer.hover.memoryLayout.niches": true,
     "rust-analyzer.hover.memoryLayout.padding": "decimal",
+    "search.useGlobalIgnoreFiles": true,
     "shellcheck.customArgs": [
         "-x"
     ],
@@ -289,5 +290,24 @@
     "window.menuBarVisibility": "compact",
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "GitHub Dark Default",
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "chat.mcp.autostart": "newAndOutdated"
 }
