@@ -23,6 +23,7 @@ broot
 btop
 btrfs-progs
 bun-bin
+burpsuite
 capitaine-cursors
 capnproto
 checksec
@@ -116,7 +117,6 @@ linux
 linux-firmware
 linux-headers
 m4
-mailspring-bin
 make
 man-db
 mangohud
@@ -167,6 +167,7 @@ pkgconf
 playerctl
 plocate
 polybar
+postman-bin
 powershell-bin
 prismlauncher
 psf-cozette

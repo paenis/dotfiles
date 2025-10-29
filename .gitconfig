@@ -5,7 +5,8 @@
 
 [diff]
 	algorithm = minimal
-	colorMoved = default
+	colorMoved = dimmed-zebra
+	colorMovedWS = allow-indentation-change
 
 [user]
 	email = github+paenis@cark.moe
