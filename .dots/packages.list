@@ -13,6 +13,7 @@ base
 base-devel
 bash-completion
 bat
+beekeeper-studio-bin
 bind
 binutils
 bison
@@ -39,6 +40,8 @@ discord
 dmenu
 dmidecode
 dnsmasq
+docker
+docker-compose
 dotbare
 duf
 dunst
@@ -54,7 +57,7 @@ eza
 fakeroot
 fastfetch
 fd
-featherwallet-appimage
+featherwallet-bin
 feh
 feroxbuster-bin
 file
@@ -123,7 +126,6 @@ mangohud
 mesa-utils
 mkinitcpio-firmware
 mold
-mongodb-bin
 mpv
 multilib-devel
 nano
@@ -167,7 +169,6 @@ pkgconf
 playerctl
 plocate
 polybar
-postman-bin
 powershell-bin
 prismlauncher
 psf-cozette

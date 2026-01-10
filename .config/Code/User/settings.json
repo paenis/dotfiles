@@ -28,7 +28,7 @@
         "editor.defaultFormatter": "biomejs.biome"
     },
     "[typescript]": {
-        "editor.defaultFormatter": "biomejs.biome"
+        "editor.defaultFormatter": "oxc.oxc-vscode"
     },
     "ansible.lightspeed.enabled": false,
     "ansible.lightspeed.suggestions.enabled": false,
@@ -298,7 +298,7 @@
         "editor.defaultFormatter": "biomejs.biome"
     },
     "[typescriptreact]": {
-        "editor.defaultFormatter": "biomejs.biome"
+        "editor.defaultFormatter": "oxc.oxc-vscode"
     },
     "[dockercompose]": {
         "editor.insertSpaces": true,
