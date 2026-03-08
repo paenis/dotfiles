@@ -3,13 +3,13 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "biomejs.biome"
+        "editor.defaultFormatter": "oxc.oxc-vscode"
     },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[jsonc]": {
-        "editor.defaultFormatter": "biomejs.biome"
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[markdown]": {
         "editor.defaultFormatter": "yzhang.markdown-all-in-one"
@@ -58,11 +58,11 @@
     "github.copilot.chat.newWorkspace.useContext7": true,
     "github.copilot.enable": {
         "*": true,
-        "c": true,
-        "markdown": true,
         "plaintext": false,
-        "rust": true,
+        "markdown": true,
         "scminput": false,
+        "c": true,
+        "rust": true,
         "yaml": true
     },
     "github.copilot.nextEditSuggestions.enabled": true,
@@ -311,5 +311,11 @@
     },
     "chat.mcp.autostart": "newAndOutdated",
     "biome.requireConfiguration": true,
-    "biome.configurationPath": ""
+    "biome.configurationPath": "",
+    "github.copilot.chat.codesearch.enabled": true,
+    "github.copilot.chat.customAgents.showOrganizationAndEnterpriseAgents": true,
+    "github.copilot.chat.responsesApiReasoningEffort": "high",
+    "[ansible]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    }
 }
