@@ -57,3 +57,6 @@ case ":$bun_bin:" in
 	*) export PATH="$bun_bin:$PATH" ;;
 esac
 # bun end
+
+# zoxide
+eval "$(zoxide init bash)"

@@ -122,5 +122,11 @@ verbs: [
     #     external: "mv {file} {other-panel-directory}"
     #     leave_broot: false
     # }
+    {
+        invocation: cd
+        key: alt-Enter
+        apply_to: any
+        external: "z {directory}"
+    }
 ]
 
