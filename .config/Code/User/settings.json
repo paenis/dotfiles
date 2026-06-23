@@ -1,321 +1,269 @@
 {
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
+  "[ansible]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "[dockercompose]": {
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.rulers": [80, 100],
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnType": true,
+  },
+  "[rust]": {
+    "editor.formatOnSave": true,
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+  "chat.mcp.autostart": "newAndOutdated",
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask",
+  ],
+  "diffEditor.experimental.showMoves": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.aiStats.enabled": true,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.fontFamily": "Iosevka Extended, monospace",
+  "editor.fontLigatures": true,
+  "editor.inlayHints.padding": true,
+  "editor.inlineSuggest.enabled": true,
+  "errorLens.problemRangeDecorationEnabled": true,
+  "evenBetterToml.formatter.alignEntries": true,
+  "evenBetterToml.formatter.allowedBlankLines": 2,
+  "git.addAICoAuthor": "off",
+  "git.autofetch": true,
+  "git.blame.editorDecoration.enabled": true,
+  "git.blame.editorDecoration.template": "${authorName}, ${authorDateAgo} • ${subject}",
+  "git.confirmSync": false,
+  "git.suggestSmartCommit": false,
+  "github.copilot.chat.codesearch.enabled": true,
+  "github.copilot.chat.newWorkspace.useContext7": true,
+  "github.copilot.enable": {
+    "*": true,
+    "c": true,
+    "markdown": false,
+    "plaintext": false,
+    "rust": true,
+    "scminput": false,
+    "yaml": true
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "githubPullRequests.pullBranch": "never",
+  "json.schemaDownload.trustedDomains": {
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://json-schema.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://models.dev/model-schema.json": true,
+    "https://opencode.ai/config.json": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://schemastore.azurewebsites.net/": true,
+    "https://www.schemastore.org/": true,
+  },
+  "latex-workshop.formatting.latex": "latexindent",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "tectonic -X",
+      "tools": ["tectonic -X"],
     },
-    "[javascript]": {
-        "editor.defaultFormatter": "oxc.oxc-vscode"
+    {
+      "name": "latexmk",
+      "tools": ["latexmk"],
     },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+    {
+      "name": "latexmk (latexmkrc)",
+      "tools": ["latexmk_rconly"],
     },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+    {
+      "name": "latexmk (lualatex)",
+      "tools": ["lualatexmk"],
     },
-    "[markdown]": {
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    {
+      "name": "latexmk (xelatex)",
+      "tools": ["xelatexmk"],
     },
-    "[ocaml]": {
-        "editor.defaultFormatter": "ocamllabs.ocaml-platform"
+    {
+      "name": "pdflatex -> bibtex -> pdflatex * 2",
+      "tools": ["pdflatex", "bibtex", "pdflatex", "pdflatex"],
     },
-    "[python]": {
-        "editor.defaultFormatter": "charliermarsh.ruff",
-        "editor.formatOnType": true
+    {
+      "name": "Compile Rnw files",
+      "tools": ["rnw2tex", "latexmk"],
     },
-    "[rust]": {
-        "editor.formatOnSave": true
+    {
+      "name": "Compile Jnw files",
+      "tools": ["jnw2tex", "latexmk"],
     },
-    "[svelte]": {
-        "editor.defaultFormatter": "biomejs.biome"
+    {
+      "name": "Compile Pnw files",
+      "tools": ["pnw2tex", "latexmk"],
     },
-    "[typescript]": {
-        "editor.defaultFormatter": "oxc.oxc-vscode"
+    {
+      "name": "tectonic",
+      "tools": ["tectonic"],
     },
-    "ansible.lightspeed.enabled": false,
-    "ansible.lightspeed.suggestions.enabled": false,
-    "biome.lsp.bin": "/home/cark/.bun/bin/biome",
-    "chat.todoListTool.enabled": true,
-    "cmake.pinnedCommands": [
-        "workbench.action.tasks.configureTaskRunner",
-        "workbench.action.tasks.runTask"
-    ],
-    "diffEditor.experimental.showMoves": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.aiStats.enabled": true,
-    "editor.bracketPairColorization.enabled": false,
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.fontFamily": "Iosevka Extended, monospace",
-    "editor.fontLigatures": true,
-    "editor.inlayHints.padding": true,
-    "editor.inlineSuggest.enabled": true,
-    "errorLens.problemRangeDecorationEnabled": true,
-    "evenBetterToml.formatter.alignEntries": true,
-    "evenBetterToml.formatter.allowedBlankLines": 2,
-    "git.autofetch": true,
-    "git.blame.editorDecoration.enabled": true,
-    "git.blame.editorDecoration.template": "${authorName}, ${authorDateAgo} • ${subject}",
-    "git.confirmSync": false,
-    "git.suggestSmartCommit": false,
-    "github.copilot.chat.newWorkspace.useContext7": true,
-    "github.copilot.enable": {
-        "*": true,
-        "plaintext": false,
-        "markdown": true,
-        "scminput": false,
-        "c": true,
-        "rust": true,
-        "yaml": true
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "args": ["-X", "build", "--keep-logs", "--print"],
+      "command": "tectonic",
+      "name": "tectonic -X",
     },
-    "github.copilot.nextEditSuggestions.enabled": true,
-    "latex-workshop.formatting.latex": "latexindent",
-    "latex-workshop.latex.recipes": [
-        {
-            "name": "tectonic -X",
-            "tools": [
-                "tectonic -X"
-            ]
-        },
-        {
-            "name": "latexmk",
-            "tools": [
-                "latexmk"
-            ]
-        },
-        {
-            "name": "latexmk (latexmkrc)",
-            "tools": [
-                "latexmk_rconly"
-            ]
-        },
-        {
-            "name": "latexmk (lualatex)",
-            "tools": [
-                "lualatexmk"
-            ]
-        },
-        {
-            "name": "latexmk (xelatex)",
-            "tools": [
-                "xelatexmk"
-            ]
-        },
-        {
-            "name": "pdflatex -> bibtex -> pdflatex * 2",
-            "tools": [
-                "pdflatex",
-                "bibtex",
-                "pdflatex",
-                "pdflatex"
-            ]
-        },
-        {
-            "name": "Compile Rnw files",
-            "tools": [
-                "rnw2tex",
-                "latexmk"
-            ]
-        },
-        {
-            "name": "Compile Jnw files",
-            "tools": [
-                "jnw2tex",
-                "latexmk"
-            ]
-        },
-        {
-            "name": "Compile Pnw files",
-            "tools": [
-                "pnw2tex",
-                "latexmk"
-            ]
-        },
-        {
-            "name": "tectonic",
-            "tools": [
-                "tectonic"
-            ]
-        }
-    ],
-    "latex-workshop.latex.tools": [
-        {
-            "args": [
-                "-X",
-                "build",
-                "--keep-logs",
-                "--print"
-            ],
-            "command": "tectonic",
-            "name": "tectonic -X"
-        },
-        {
-            "args": [
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-file-line-error",
-                "-pdf",
-                "-outdir=%OUTDIR%",
-                "%DOC%"
-            ],
-            "command": "latexmk",
-            "env": {},
-            "name": "latexmk"
-        },
-        {
-            "args": [
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-file-line-error",
-                "-lualatex",
-                "-outdir=%OUTDIR%",
-                "%DOC%"
-            ],
-            "command": "latexmk",
-            "env": {},
-            "name": "lualatexmk"
-        },
-        {
-            "args": [
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-file-line-error",
-                "-xelatex",
-                "-outdir=%OUTDIR%",
-                "%DOC%"
-            ],
-            "command": "latexmk",
-            "env": {},
-            "name": "xelatexmk"
-        },
-        {
-            "args": [
-                "%DOC%"
-            ],
-            "command": "latexmk",
-            "env": {},
-            "name": "latexmk_rconly"
-        },
-        {
-            "args": [
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-file-line-error",
-                "%DOC%"
-            ],
-            "command": "pdflatex",
-            "env": {},
-            "name": "pdflatex"
-        },
-        {
-            "args": [
-                "%DOCFILE%"
-            ],
-            "command": "bibtex",
-            "env": {},
-            "name": "bibtex"
-        },
-        {
-            "args": [
-                "-e",
-                "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"
-            ],
-            "command": "Rscript",
-            "env": {},
-            "name": "rnw2tex"
-        },
-        {
-            "args": [
-                "-e",
-                "using Weave; weave(\"%DOC_EXT%\", doctype=\"tex\")"
-            ],
-            "command": "julia",
-            "env": {},
-            "name": "jnw2tex"
-        },
-        {
-            "args": [
-                "-e",
-                "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"
-            ],
-            "command": "julia",
-            "env": {},
-            "name": "jnw2texminted"
-        },
-        {
-            "args": [
-                "-f",
-                "tex",
-                "%DOC_EXT%"
-            ],
-            "command": "pweave",
-            "env": {},
-            "name": "pnw2tex"
-        },
-        {
-            "args": [
-                "-f",
-                "texminted",
-                "%DOC_EXT%"
-            ],
-            "command": "pweave",
-            "env": {},
-            "name": "pnw2texminted"
-        },
-        {
-            "args": [
-                "--synctex",
-                "--keep-logs",
-                "--print",
-                "%DOC%.tex"
-            ],
-            "command": "tectonic",
-            "env": {},
-            "name": "tectonic"
-        }
-    ],
-    "redhat.telemetry.enabled": false,
-    "remoteHub.commitDirectlyWarning": "off",
-    "ruff.nativeServer": "on",
-    "rust-analyzer.check.command": "clippy",
-    "rust-analyzer.hover.memoryLayout.niches": true,
-    "rust-analyzer.hover.memoryLayout.padding": "decimal",
-    "search.useGlobalIgnoreFiles": true,
-    "shellcheck.customArgs": [
-        "-x"
-    ],
-    "shellcheck.useWorkspaceRootAsCwd": true,
-    "svelte.enable-ts-plugin": true,
-    "telemetry.telemetryLevel": "error",
-    "terminal.integrated.fontFamily": "Iosevka Extended",
-    "terminal.integrated.fontWeight": "normal",
-    "window.customTitleBarVisibility": "auto",
-    "window.menuBarVisibility": "compact",
-    "window.titleBarStyle": "custom",
-    "workbench.colorTheme": "GitHub Dark Default",
-    "workbench.iconTheme": "material-icon-theme",
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "biomejs.biome"
+    {
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-outdir=%OUTDIR%",
+        "%DOC%",
+      ],
+      "command": "latexmk",
+      "env": {},
+      "name": "latexmk",
     },
-    "[css]": {
-        "editor.defaultFormatter": "biomejs.biome"
+    {
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-lualatex",
+        "-outdir=%OUTDIR%",
+        "%DOC%",
+      ],
+      "command": "latexmk",
+      "env": {},
+      "name": "lualatexmk",
     },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "oxc.oxc-vscode"
+    {
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-xelatex",
+        "-outdir=%OUTDIR%",
+        "%DOC%",
+      ],
+      "command": "latexmk",
+      "env": {},
+      "name": "xelatexmk",
     },
-    "[dockercompose]": {
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2,
-        "editor.autoIndent": "advanced",
-        "editor.defaultFormatter": "redhat.vscode-yaml"
+    {
+      "args": ["%DOC%"],
+      "command": "latexmk",
+      "env": {},
+      "name": "latexmk_rconly",
     },
-    "[github-actions-workflow]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml"
+    {
+      "args": ["-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"],
+      "command": "pdflatex",
+      "env": {},
+      "name": "pdflatex",
     },
-    "chat.mcp.autostart": "newAndOutdated",
-    "biome.requireConfiguration": true,
-    "biome.configurationPath": "",
-    "github.copilot.chat.codesearch.enabled": true,
-    "github.copilot.chat.customAgents.showOrganizationAndEnterpriseAgents": true,
-    "github.copilot.chat.responsesApiReasoningEffort": "high",
-    "[ansible]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml"
-    }
+    {
+      "args": ["%DOCFILE%"],
+      "command": "bibtex",
+      "env": {},
+      "name": "bibtex",
+    },
+    {
+      "args": ["-e", "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"],
+      "command": "Rscript",
+      "env": {},
+      "name": "rnw2tex",
+    },
+    {
+      "args": ["-e", "using Weave; weave(\"%DOC_EXT%\", doctype=\"tex\")"],
+      "command": "julia",
+      "env": {},
+      "name": "jnw2tex",
+    },
+    {
+      "args": ["-e", "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"],
+      "command": "julia",
+      "env": {},
+      "name": "jnw2texminted",
+    },
+    {
+      "args": ["-f", "tex", "%DOC_EXT%"],
+      "command": "pweave",
+      "env": {},
+      "name": "pnw2tex",
+    },
+    {
+      "args": ["-f", "texminted", "%DOC_EXT%"],
+      "command": "pweave",
+      "env": {},
+      "name": "pnw2texminted",
+    },
+    {
+      "args": ["--synctex", "--keep-logs", "--print", "%DOC%.tex"],
+      "command": "tectonic",
+      "env": {},
+      "name": "tectonic",
+    },
+  ],
+  "nix.enableLanguageServer": true,
+  "nix.serverPath": "nixd",
+  "nix.serverSettings": {
+    "nil": {
+      "formatting": {
+        "command": ["nixfmt"],
+      },
+    },
+    "nixd": {
+      "formatting": {
+        "command": ["nixfmt"],
+      },
+      "nixpkgs": {
+        "expr": "import (builtins.getFlake (toString ./.)).inputs.nixpkgs {}",
+      },
+    },
+  },
+  "redhat.telemetry.enabled": false,
+  "remoteHub.commitDirectlyWarning": "off",
+  "ruff.nativeServer": "on",
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.hover.memoryLayout.niches": true,
+  "rust-analyzer.hover.memoryLayout.padding": "decimal",
+  "search.useGlobalIgnoreFiles": true,
+  "shellcheck.customArgs": ["-x"],
+  "shellcheck.useWorkspaceRootAsCwd": true,
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.fontFamily": "Iosevka Extended",
+  "terminal.integrated.fontWeight": "normal",
+  "window.customTitleBarVisibility": "auto",
+  "window.menuBarVisibility": "compact",
+  "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "material-icon-theme",
+  "extensions.autoUpdateDelay": 12,
+  "github.copilot.nextEditSuggestions.eagerness": "low",
 }
