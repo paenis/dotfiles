@@ -34,13 +34,12 @@ fi
 
 # keep more history
 shopt -s histappend
-export HISTFILESIZE=10000
-export HISTSIZE=1000
+export HISTCONTROL=ignoreboth:erasedups
+export HISTFILESIZE=100000
+export HISTSIZE=100000
 
 source /home/cark/.config/broot/launcher/bash/br
 export PATH=$PATH:/home/cark/.spicetify
-
-export OLLAMA_ORIGINS="https://*.wikipedia.org"
 
 # pnpm
 export PNPM_HOME="/home/cark/.local/share/pnpm"
@@ -50,13 +49,8 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-# bun
-bun_bin="/home/cark/.bun/bin"
-case ":$bun_bin:" in
-	*":$bun_bin:"*) ;;
-	*) export PATH="$bun_bin:$PATH" ;;
-esac
-# bun end
-
 # zoxide
 eval "$(zoxide init bash)"
+
+# direnv
+eval "$(direnv hook bash)"
