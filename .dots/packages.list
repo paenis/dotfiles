@@ -69,6 +69,7 @@ gettext
 ghostty
 gist
 git
+git-filter-repo
 gnu-netcat
 greetd
 greetd-tuigreet
@@ -180,6 +181,7 @@ qemu-user
 qemu-user-binfmt
 redshift
 reflector
+restic
 ripgrep
 rofi
 rsync
@@ -195,6 +197,7 @@ smartmontools
 smbclient
 sof-firmware
 solaar
+spotify
 steam
 strace
 sudo
