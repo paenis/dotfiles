@@ -44,7 +44,6 @@ docker-compose
 dotbare
 dunst
 efibootmgr
-electrum
 ente-auth-bin
 exfat-utils
 exiv2
@@ -57,7 +56,6 @@ featherwallet-bin
 feh
 file
 findutils
-firefox
 flex
 fprintd
 fuzzel
@@ -99,7 +97,6 @@ iotop
 iptables
 jdk-openjdk
 jdk17-openjdk
-jetbrains-toolbox
 jq
 jre21-openjdk
 jujutsu
@@ -176,7 +173,6 @@ python-gobject
 python-pip
 python-requests
 python-virtualenv
-qbittorrent
 qemu-user
 qemu-user-binfmt
 redshift
