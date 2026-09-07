@@ -102,7 +102,6 @@ jre21-openjdk
 jujutsu
 just
 kcachegrind
-krokiet-bin
 libpulse
 libqalculate
 libreoffice-fresh
@@ -138,7 +137,6 @@ noto-fonts-emoji
 npm
 obsidian
 onefetch
-oneko
 opam
 opencl-headers
 opencode-bin
@@ -182,8 +180,6 @@ ripgrep
 rofi
 rsync
 rustup
-rz-cutter
-rz-ghidra
 scrot
 seahorse
 sed
@@ -221,7 +217,6 @@ uv
 valgrind
 vim
 visual-studio-code-bin
-vlc
 vulkan-intel
 vulkan-tools
 wget
