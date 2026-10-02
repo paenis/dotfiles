@@ -76,7 +76,8 @@
     "plaintext": false,
     "rust": true,
     "scminput": false,
-    "yaml": true
+    "yaml": true,
+    "javascript": false
   },
   "github.copilot.nextEditSuggestions.enabled": true,
   "githubPullRequests.pullBranch": "never",

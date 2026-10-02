@@ -9,7 +9,6 @@ arc-gtk-theme
 archlinux-keyring
 autoconf
 automake
-aws-cli-v2
 base
 base-devel
 bash-completion
@@ -52,7 +51,6 @@ eza
 fakeroot
 fastfetch
 fd
-featherwallet-bin
 feh
 file
 findutils
@@ -64,7 +62,6 @@ gawk
 gcc
 gdb
 gettext
-ghostty
 gist
 git
 git-filter-repo
@@ -96,7 +93,6 @@ inxi
 iotop
 iptables
 jdk-openjdk
-jdk17-openjdk
 jq
 jre21-openjdk
 jujutsu
@@ -130,16 +126,12 @@ networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-vpnc
 nginx
-niri
 nmap
 noto-fonts-cjk
 noto-fonts-emoji
-npm
 obsidian
 onefetch
-opam
 opencl-headers
-opencode-bin
 openssh
 oxipng
 pacman
@@ -160,8 +152,8 @@ pipewire-pulse
 pkgconf
 playerctl
 plocate
-pnpm
 polybar
+powertop
 prismlauncher
 psf-cozette
 psf-unifont
@@ -189,7 +181,6 @@ smartmontools
 smbclient
 sof-firmware
 solaar
-spotify
 steam
 strace
 sudo
@@ -198,9 +189,7 @@ tailscale
 tectonic
 terminus-font
 texinfo
-texlive-basic
-texlive-bin
-texlive-binextra
+thunderbird
 tlp
 tmux
 tokei
